@@ -1,0 +1,25 @@
+void main() {
+String primeiroEmail = 'guigui@guilherme.dev';
+  String segundoEmail = 'mo@balenciaga.dev';
+  String terceiroEmail = 'eduarda@mor.dev';
+
+  List<String> listaEmail = ['guigui@guilherme.dev','mo@balenciaga.dev','eduarda@mor.dev','ata@abu.dev'];
+  for (int i = 0; i < listaEmail.length; i++){
+    print('${listaEmail[i]} Venha para o próximo Café com Código');
+    
+  }
+  
+}
+
+boolstatusAprovado(double nota) {
+  if (nota>= 7.0){
+    return true;
+  }
+  return false;
+}
+
+class Aluno {
+  Aluno(this.nome, this.nota);
+  String nome;
+  double nota;
+}
